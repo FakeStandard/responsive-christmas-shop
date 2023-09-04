@@ -1,0 +1,24 @@
+.decoration-container {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.decoration-data {
+    text-align: center;
+    padding: 1rem 1rem 2rem;
+    background-color: var(--container-color);
+    box-shadow: 0 2px 6px rgba(65, 11, 16, 0.15);
+    border-radius: 1rem;
+}
+
+.decoration-data:hover {
+    box-shadow: 0 3px 12px rgba(65, 11, 16, 0.15);
+}
+
+.decoration-img {
+    width: 180px;
+}
+
+.decoration-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+}
