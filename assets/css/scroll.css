@@ -1,0 +1,32 @@
+.scroll-header {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scrolltop {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    background: rgba(218, 37, 53, 0.5);
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: 0.4s;
+    visibility: hidden;
+}
+
+.scrolltop:hover {
+    background-color: var(--first-color);
+}
+
+.scrolltop-icon {
+    font-size: 1.5rem;
+    color: var(--body-color);
+}
+
+.show-scroll {
+    visibility: visible;
+    bottom: 1.5rem;
+}

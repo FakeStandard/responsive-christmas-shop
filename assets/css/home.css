@@ -1,0 +1,18 @@
+.home-container {
+    row-gap: 0.5rem;
+}
+
+.home-img {
+    width: 280px;
+    justify-self: center;
+}
+
+.home-title {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--mb-2);
+}
+
+.home-description {
+    margin-bottom: var(--mb-3);
+}
