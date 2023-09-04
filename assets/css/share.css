@@ -1,0 +1,12 @@
+.share-data {
+    text-align: center;
+}
+
+.share-description {
+    margin-bottom: var(--mb-2);
+}
+
+.share-img {
+    width: 280px;
+    justify-self: center;
+}
