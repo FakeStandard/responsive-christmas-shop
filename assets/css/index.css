@@ -9,3 +9,133 @@
 @import "./accessory.css";
 @import "./send.css";
 @import "./footer.css";
+
+@media screen and (max-width: 359px) {
+    .home-img,
+    .share-img,
+    .send-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .home-container,
+    .share-container,
+    .send-container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .home-container {
+        padding: 5rem 0 0;
+    }
+
+    .home-img {
+        order: 1;
+    }
+
+    .share-img {
+        order: -1;
+    }
+
+    .home-img,
+    .share-img,
+    .send-img {
+        width: 100%;
+    }
+
+    .section-title-center,
+    .share-data,
+    .send-description {
+        text-align: initial;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .section {
+        padding-top: 7rem;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-left: var(--mb-5);
+        margin-bottom: 0;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .change-theme {
+        position: initial;
+        margin-left: var(--mb-4);
+    }
+
+    .home-container {
+        padding: 7rem 2rem 0;
+    }
+
+    .share-container {
+        padding: 0 2rem;
+    }
+
+    .accessory-container {
+        grid-template-columns: repeat(3, 224px);
+        justify-content: center;
+    }
+
+    .accessory-img {
+        width: 120px;
+        margin-bottom: var(--mb-1);
+    }
+
+    .accessory-title,
+    .accessory-category {
+        text-align: initial;
+    }
+
+    .accessory-button {
+        padding: 0.75rem;
+    }
+
+    .send {
+        background: none;
+    }
+
+    .send-container {
+        background-color: var(--first-color-send);
+        padding: 2rem;
+        border-radius: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 968px) {
+    .bd-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home-img,
+    .share-img,
+    .send-img {
+        width: 469px;
+    }
+
+    .home-container,
+    .share-container,
+    .send-container {
+        column-gap: 5rem;
+    }
+}
