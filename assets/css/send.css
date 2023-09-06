@@ -1,0 +1,38 @@
+.send {
+    background-color: var(--first-color-send);
+}
+
+.send-description {
+    text-align: center;
+    margin-bottom: var(--mb-4);
+}
+
+.send-title,
+.send-description {
+    color: #fff;
+}
+
+.send-direction {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.send-input {
+    width: 70%;
+    outline: none;
+    border: none;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+.send-input::placeholder {
+    font-family: var(--body-font);
+}
+
+.send-img {
+    width: 280px;
+    justify-content: center;
+}
