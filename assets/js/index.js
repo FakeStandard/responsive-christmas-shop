@@ -84,3 +84,25 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+const sr = ScrollReveal({
+    distance: '30px',
+    duration: 1800,
+    reset: true,
+});
+
+sr.reveal(`.home-data, .home-img, 
+           .decoration-data,
+           .accessory-content,
+           .footer-content`, {
+    origin: 'top',
+    interval: 200,
+})
+
+sr.reveal(`.share-img, .send-content`, {
+    origin: 'left'
+})
+
+sr.reveal(`.share-data, .send-img`, {
+    origin: 'right'
+})
