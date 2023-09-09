@@ -1,4 +1,4 @@
-# :christmas_tree: Christma Shop
+# :christmas_tree: Christmas Shop
 
 - Responsive Website Modern Design
 - Using HTML, CSS & JavaScript
