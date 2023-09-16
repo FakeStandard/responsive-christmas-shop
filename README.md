@@ -5,7 +5,7 @@
 - Dark & Light theme
 - Developed with Mobile First
 
-### :star: [Demo](https://fakestandard.github.io/responsive-website-design-christmas-shop/)
+### :star: [Demo](https://fakestandard.github.io/rwd-christmas-shop/)
 
 ![COVER](./preview.png)
 
