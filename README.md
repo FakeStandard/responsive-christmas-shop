@@ -1,4 +1,4 @@
-# 🎁: Christmas Shop Website
+# :gift: Christmas Shop Website
 
 - Responsive Website Modern Design
 - Using HTML, CSS & JavaScript
